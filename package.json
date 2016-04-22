@@ -1,0 +1,14 @@
+{
+  "name": "webpack-jscrush",
+  "version": "0.0.1",
+  "description": "Jscrush plugin for Webpack",
+  "main": "index.js",
+  "dependencies": {
+    "jscrush": "0.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanex3339",
+  "license": "ISC"
+}
