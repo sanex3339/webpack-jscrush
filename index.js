@@ -1,9 +1,9 @@
 var RawSource = require('webpack-core/lib/RawSource'),
     jscrush = require('jscrush');
 
-function WebpackJsCrush () {}
+function WebpackJSCrush () {}
 
-WebpackJsCrush.prototype.apply = function (compiler) {
+WebpackJSCrush.prototype.apply = function (compiler) {
     compiler.plugin('compilation', function (compilation) {
         compilation.plugin("optimize-chunk-assets", function(chunks, callback) {
             var files = [];
@@ -30,4 +30,4 @@ WebpackJsCrush.prototype.apply = function (compiler) {
     });
 };
 
-module.exports = WebpackJsCrush;
+module.exports = WebpackJSCrush;

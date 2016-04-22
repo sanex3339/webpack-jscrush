@@ -1,7 +1,7 @@
 {
   "name": "webpack-jscrush",
-  "version": "0.0.3",
-  "description": "Jscrush plugin for Webpack",
+  "version": "0.0.4",
+  "description": "JSCrush plugin for Webpack",
   "main": "index.js",
   "dependencies": {
     "jscrush": "0.0.0"
