@@ -1,7 +1,10 @@
 #Jscrush plugin for Webpack
 
-###Installation:
+###Installation (npm):
+    npm install --save webpack-jscrush
 
+###Configuration
+    
 	var Jscrush = require('webpack-jscrush');
 
     // ...
