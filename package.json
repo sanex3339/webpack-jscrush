@@ -1,10 +1,11 @@
 {
   "name": "webpack-jscrush",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "JSCrush plugin for Webpack",
   "main": "index.js",
   "dependencies": {
-    "jscrush": "0.0.0"
+    "jscrush": "0.0.0",
+    "webpack-core": "^0.6.8"
   },
   "repository": {
     "type": "git",
